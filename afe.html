@@ -1,0 +1,787 @@
+<html lang="en" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Afe Babalola University e-Portal - Dashboard</title>
+	<meta name="description" content="Afe Babalola University, Ado-Ekiti">
+	<meta name="keywords" content="portal,abuad,lms,eportal,ado,nigeria">
+	<meta name="author" content="Sebiotimo S. Victor">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reset.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/style.css">
+    <!-- css for this page -->
+    <link href="css/jquery.easy-pie-chart.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+	<!--<link href="css/one-page-wonder.css" rel="stylesheet"> -->
+    <!-- css for this page -->
+    <link rel="stylesheet" type="text/css" href="assets/datepicker/css/datepicker.css">
+    <link rel="stylesheet" type="text/css" href="assets/lou-multi-select/css/multi-select.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap-timepicker/compiled/timepicker.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap-colorpicker/css/colorpicker.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap-fileupload/bootstrap-fileupload.css"> 
+    	<script src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-main.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-vendor.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-runtime.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-app.js" charset="UTF-8" crossorigin="*"></script><script async="" src="https://embed.tawk.to/592d4f4ab3d02e11ecc676b6/default" charset="UTF-8" crossorigin="*"></script><script src="admin/vendors/jquery-1.9.1.min.js"></script>
+        <script src="admin/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script>
+function popitup(link) {
+  var w = window.open(link.href,
+        link.target||"_blank",
+        'menubar=no,toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=no,dependent,width=auto,height=auto,left=0,top=0 align=center');
+  return w?false:true; // allow the link to work if popup is blocked
+ }
+</script><style>.cke{visibility:hidden;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-2c78ba82.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-696bc286.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-f1596d96.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-2d0b383d.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-48f46bef.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-4fe9d5dd.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-2d0b9454.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/js/twk-chunk-07cad36d.js"></script><style type="text/css">#ys69drpu5ahg1690828976980 {outline:none !important;
+visibility:visible !important;
+resize:none !important;
+box-shadow:none !important;
+overflow:visible !important;
+background:none !important;
+opacity:1 !important;
+filter:alpha(opacity=100) !important;
+-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important;
+-mz-opacity:1 !important;
+-khtml-opacity:1 !important;
+top:auto !important;
+right:0px !important;
+bottom:0px !important;
+left:auto !important;
+position:fixed !important;
+border:0 !important;
+min-height:0px  !important;
+min-width:0px  !important;
+max-height:none  !important;
+max-width:none  !important;
+padding:0px !important;
+margin:0px !important;
+-moz-transition-property:none !important;
+-webkit-transition-property:none !important;
+-o-transition-property:none !important;
+transition-property:none !important;
+transform:none !important;
+-webkit-transform:none !important;
+-ms-transform:none !important;
+width:auto !important;
+height:auto  !important;
+display:none !important;
+z-index:2000000000 !important;
+background-color:transparent !important;
+cursor:none !important;
+float:none !important;
+border-radius:unset !important;
+pointer-events:auto !important;
+clip:auto !important;
+color-scheme:light !important;}#ys69drpu5ahg1690828976980.widget-hidden {display: none !important;}#ys69drpu5ahg1690828976980.widget-visible {display: block !important;}
+@media print{
+ #ys69drpu5ahg1690828976980.widget-visible { 
+display: none !important;
+ }
+}</style><script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js" type="text/javascript" async="" defer=""></script><script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js" type="text/javascript" async="" defer=""></script><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#ohnrmk7ddpk1690828977113.open{animation : tawkMaxOpen .25s ease!important;}@keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-moz-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-webkit-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}#ohnrmk7ddpk1690828977113.closed{animation: tawkMaxClose .25s ease!important}</style></head>
+
+<!-- Configure School Fees Javascript starts-->
+	
+<!-- Configure School Fees Javascript ends-->
+  
+<body class="" style="">
+						
+						
+						
+    <!-- start:wrapper -->
+    <div id="wrapper">
+        <div class="header-top">
+            <!-- start:navbar -->
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="container">
+                    <!-- start:navbar-header -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="MyDashboard"><img alt="avatar" class="image-responsive" src="img/logo.png"></a>
+                    </div>
+                    <!-- end:navbar-header -->
+                    <ul class="nav navbar-nav navbar-left top-menu">
+                        <!-- start dropdown 1 -->
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <i class="fa fa-tasks" data-original-title="" title=""></i>
+                                <span class="badge bg-success">0</span>
+                            </a>
+                            <ul class="dropdown-menu extended tasks-bar">
+                                <div class="notify-arrow notify-arrow-green"></div>
+                                <li>
+                                    <p class="green">You have 0 pending tasks</p>
+                                </li>
+                               							
+                               
+                                
+                                
+                                <li class="external">
+                                    <a href="#">See All Tasks</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end dropdown 1 -->
+                        <!-- start dropdown 2 -->
+                        <li id="header_inbox_bar" class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <i class="fa fa-envelope-o" data-original-title="" title=""></i>
+                                <span class="badge bg-important">0</span>
+                            </a>
+                            <ul class="dropdown-menu extended inbox">
+                                <div class="notify-arrow notify-arrow-red"></div>
+                                <li>
+     <p class="red">You have 0 new message</p>
+                                </li>
+								
+								
+								                                
+                                <li>
+                                    <a href="compose.php">See all messages</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end dropdown 2 -->
+                        <!-- start dropdown 3 -->
+                        <li id="header_notification_bar" class="dropdown">
+                            <a href="#">
+                                <i class="fa fa-bell-o" data-original-title="" title=""></i>
+                                <span class="badge bg-warning">7</span>
+                            </a>
+                            <ul class="dropdown-menu extended notification">
+                                <div class="notify-arrow notify-arrow-yellow"></div>
+                                <li>
+                                    <p class="yellow">You have 7 new notifications</p>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="label label-danger"><i class="fa fa-bolt" data-original-title="" title=""></i></span>
+                                        Server #3 overloaded.
+                                        <span class="small italic">34 mins</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="label label-warning"><i class="fa fa-bell" data-original-title="" title=""></i></span>
+                                        Server #10 not respoding.
+                                        <span class="small italic">1 Hours</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="label label-danger"><i class="fa fa-bolt" data-original-title="" title=""></i></span>
+                                        Database overloaded 24%.
+                                        <span class="small italic">4 hrs</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="label label-success"><i class="fa fa-plus" data-original-title="" title=""></i></span>
+                                        New user registered.
+                                        <span class="small italic">Just now</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="label label-info"><i class="fa fa-bullhorn" data-original-title="" title=""></i></span>
+                                        Application error.
+                                        <span class="small italic">10 mins</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">See all notifications</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- end dropdown 3 -->
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right top-menu">
+                        
+                        <!-- user login dropdown start-->
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <img alt="" width="29px" hieght="29px" class="image-responsive img-circle" src="profilepic/1610378589IMG_20210111_162206.jpg">
+                                <span class="username">Abdullahi  Salim  Isibor  (20/SCI01/004)</span>
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <div class="log-arrow-up"></div>
+                                <li><a href="UpdateProfile"><i class=" fa fa-suitcase" data-original-title="" title=""></i>Profile</a></li>
+                                  <li><a href="GenerateTempIDCard"><i class=" fa fa-user" data-original-title="" title=""></i>Temporary ID Card</a></li>
+                                <li><a href="ChangePassword"><i class="fa fa-cog" data-original-title="" title=""></i> Change Password</a></li>
+								<li><a href="UpdatePassport"><i class="fa fa-bell-o" data-original-title="" title=""></i> Update Passport</a></li>
+                                <li><a href="#"><i class="fa fa-bell-o" data-original-title="" title=""></i> Notification</a></li>
+                                <li><a href="SignOut"><i class="fa fa-key" data-original-title="" title=""></i> Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- end:navbar -->
+        </div>
+        <!-- start:header -->
+        <div id="header">
+            <div class="overlay">
+                <nav class="navbar" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                           <strong> <input type="submit" value="MENU" class="btn-block btn-drop navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            
+                            </strong>
+                        </div>
+                    
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="MyDashboard">
+                                        <div class="text-center">
+                                            <i class="fa fa-dashboard fa-3x" data-original-title="" title=""></i><br>
+                                            Dashboard
+                                        </div>
+                                    </a>
+                                </li>
+                                <!--02-04-23 Seg-->
+                               <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <div class="text-center">
+                                            <i class="fa fa-laptop fa-3x" data-original-title="" title=""></i><br>
+                                            Manage Courses<span class="caret"></span>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="RegisterCourse"><i class="fa fa-lemon-o" data-original-title="" title=""></i>Register Courses</a></li>
+                                        <li><a href="AdditionalCourse"><i class="fa fa-lemon-o" data-original-title="" title=""></i>Register Additional Courses</a></li> 
+                                        <li><a href="additionalUnit"><i class="fa fa-file" data-original-title="" title=""></i>Apply for Extra Units</a></li>
+                                         <li><a href="PreviousSessionCourse"><i class="fa fa-lemon-o" data-original-title="" title=""></i>Register Previous Session Courses</a></li>
+                                        <!--<li><a href="RegisteredCourse"><i class="fa fa-puzzle-piece"></i> Registered Courses</a></li>-->
+                                        <li><a href="CourseHistory"><i class="fa fa-file" data-original-title="" title=""></i> Course History</a></li>
+                                        <!--<li><a href="ExamClearance"><i class="fa fa-file"></i>Print Exam Clearance</a></li>-->
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <div class="text-center">
+                                             <i class="fa fa-list fa-3x" data-original-title="" title=""></i><br>
+                                            Payments <span class="caret"></span>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="ManagePayments"><i class="fa fa-list-alt" data-original-title="" title=""></i> School Fees Payment</a></li> 
+                                    <!--    <li><a href="ProcessPayment"><i class="fa fa-list-alt"></i> Generate Payment Invoice</a></li> 
+                                        <li><a href="FeesLineUpMed"><i class="fa fa-list-alt"></i> Miscellaneous</a></li>
+                                        
+                                         <li><a href="Damages"><i class="fa fa-list-alt"></i> Damages</a></li>
+                                       <li><a href="damagesreceipt.php"><i class="fa fa-list-alt"></i> Damages Receipt</a></li>-->
+                                        <li><a href="#"><i class="fa fa-list-alt" data-original-title="" title=""></i>Final Year Student Due</a></li>
+                                        <li><a href="FeesLineUp"><i class="fa fa-list-alt" data-original-title="" title=""></i> Fees Lineup</a></li>
+                                        <li><a href="paymentstat.php"><i class="fa fa-list-alt" data-original-title="" title=""></i> Dues</a></li>
+                                         <li><a href="https://portal.abuad.edu.ng/doc/How_to_make_payment.pdf"><i class="fa fa-list-alt" data-original-title="" title=""></i> How to Make Payment</a></li>
+                                      <!--  <li><a href="#"><i class="fa fa-list-ul"></i> School Fees Details</a></li>
+                                        <li class="divider"></li>  -->
+                                        <li><a href="TransactionInvoiceLogs"><i class="fa fa-check-square" data-original-title="" title=""></i> My Invoice History</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                 <li class="dropdown">
+                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <div class="text-center">
+                                             <i class="fa fa-list fa-3x" data-original-title="" title=""></i><br>
+                                            Room Allocation <span class="caret"></span>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                     <li>  <a href="RoomAllocation"> <i class="fa fa-list-alt" data-original-title="" title=""></i>Print Room Allocation Details</a></li>
+                                       <!--   <li><a href="ChangeRoomType"><i class="fa fa-list-alt"></i>Change Room Type</a></li> -->
+                                    </ul>
+                                    
+                                </li>
+                                
+                                <li>
+                                   <!-- <a  href="apply_hostel.php">-->
+                                    <a href="ResultDetails">
+                                        <div class="text-center">
+                                             <i class="fa fa-list fa-3x" data-original-title="" title=""></i><br>
+                                            Result
+                                        </div>
+                                    </a>
+                                    
+                                </li>
+                                <li class="dropdown">
+                                    <a href="LearningMS">
+                                        <div class="text-center">
+                                            <i class="fa fa-home fa-3x" data-original-title="" title=""></i><br>
+                                            LMS <span class="caret"></span>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="LearningMS"><i class="fa fa-th-large" data-original-title="" title=""></i>Learning Management System</a></li>
+                                        <li><a href="compose.php"><i class="fa fa-th-large" data-original-title="" title=""></i> Internal Mailing System</a></li>
+                                        <li><a href="http://ocw.abuad.edu.ng"><i class="fa fa-th-large" data-original-title="" title=""></i> OCW</a></li>
+                                        <li><a href="http://eprints.abuad.edu.ng"><i class="fa fa-th-list" data-original-title="" title=""></i> ePrints</a></li>
+                                    </ul>  
+                                </li>
+                                
+                                <li class="dropdown">
+                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <div class="text-center">
+                                             <i class="fa fa-list fa-3x" data-original-title="" title=""></i><br>
+                                            Industrial Training <span class="caret"></span>
+                                        </div>
+                                    </a>
+                                    
+                                    					
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="http://its.abuad.edu.ng/index.php?rtno=20/SCI01/004&amp;type=&amp;track=847jeie7478987wywuyuydbfoeuh497662tsjhgu23t"><i class="fa fa-list-alt" data-original-title="" title=""></i>Complete IT Form</a></li>
+                                        <li><a href="its.php"><i class="fa fa-list-alt" data-original-title="" title=""></i>Print Introduction Letter</a></li>
+                                    </ul>
+                                    
+                                </li>
+                              
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                        <div class="text-center">
+                                            <i class="fa fa-plus-square fa-3x" data-original-title="" title=""></i><br>
+                                            Account Settings <span class="caret"></span>
+                                        </div>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="UpdateProfile"><i class=" fa fa-suitcase" data-original-title="" title=""></i>Profile</a></li>
+                                        <li><a href="GenerateTempIDCard"><i class=" fa fa-user" data-original-title="" title=""></i>Temporary ID Card</a></li>
+                                <li><a href="ChangePassword"><i class="fa fa-cog" data-original-title="" title=""></i> Change Password</a></li>
+                                <li><a href="UpdatePassport"><i class="fa fa-bell-o" data-original-title="" title=""></i> Update Passport</a></li>
+                                <li><a href="#"><i class="fa fa-bell-o" data-original-title="" title=""></i> Notification</a></li>
+                                <li><a href="SignOut"><i class="fa fa-key" data-original-title="" title=""></i> Log Out</a></li>
+                                        
+                                     </ul>
+                                </li>
+                                <!--
+                                <li>
+                                   
+                                    <a  href="ExamClearance">
+                                        <div class="text-center">
+                                             <i class="fa fa-list fa-3x"></i><br>
+                                            Exam Clearance
+                                        </div>
+                                    </a>
+                                    
+                                </li>-->
+                                
+                            </ul>
+                            
+                            
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- end:header -->
+ <!-- Modal content -->
+<div id="myModal" class="modal fade" role="dialog" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+        
+        <div class="modal-content">
+            <!---->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title text-center"><b>IMPORTANT INFORMATION</b></h4>
+            </div> 
+          
+            <div class="modal-body">
+                <center>
+                <strong>
+                    Please be informed that due to limited number of certain room types, it is only the payment of school fees(full or part-payment) and full payment of hostel accomodation by a student that would
+                    secure the room selected. <br><br>Every 72hours (mid-night), the University will check the list of students that have not paid for the rooms selected and forfeit the rooms not paid for.
+                    <br><br><b>NOTE:</b> Upnaid invoices will also be invalid after 72hours. However, you can thereafter generate another invoice.
+                </strong>
+                </center>
+                
+            
+            </div>
+            
+            <!--second modal-->
+            
+                    
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" data-original-title="" title="">Close</button>
+            </div>
+        </div>
+    
+      </div>
+</div>  
+
+<script>
+    $(window).load(function(){ 
+    
+    $('#myModal').modal('show');
+  
+    }); 
+</script>
+
+        <!-- start:main -->
+        <style type="text/css">
+<!--
+.style4 {color: #FF0000}
+.style6 {
+	font-size: 16;
+	color: #000000;
+}
+.style7 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.style8 {font-size: 18px}
+.style9 {
+	color: #FF0000;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif;
+	font-size: 24px;
+}
+-->
+        </style>
+        
+        <div class="container">
+            <div id="main">
+                <!-- start:breadcrumb -->
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Dashboard</li>
+                </ol>
+                <!-- end:breadcrumb -->
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="page-header" style="text-align: center">
+                            Fees Schedule for 2023/2024 Session
+                        </h2>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel">
+                          <div class="panel-heading">
+                           
+                              <p align="center" class="style4"><span style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif; font-size: 14px; text-align: center;">To make registration processes easier, kindly pay your school fees from home. Please note that Bank Draft for school fees will take some days to reflect on your portal. It is therefore recommended that you generate payment invoice from your portal and use the invoice to make payment at the bank via <strong>Paydirect</strong> or pay online with your ATM Card using <strong>Quickteller</strong>.</span></p>
+                          </div>
+                            <div class="panel-body">
+							
+					
+						
+						
+								 
+  
+      						<center>
+                              <h4><strong>FAQ</strong>: I was debited, but my due(s) shows Unpaid, don't worry! Click the <strong>"Refresh Payment" </strong>button below: </h4><br>
+                                <a href="duerequery.php" class="btn btn-info btn-rounded" data-original-title="" title="">Refresh Payment<i class="fa fa-check" data-original-title="" title=""></i></a>
+                            </center>
+                            <br><hr>
+                              <table width="611" height="191" border="0" align="center" class="table">
+                                <tbody><tr>
+                        <td width="auto" class="style6"><span class="style7">School Fees</span></td>
+                        <td width="auto" class="style8">You have to pay at least 50% (N868000) of 1736000.00</td>
+                                   <td width="auto">
+                                               Waiting for payment...<i class="fa fa-spinner fa-spin" data-original-title="" title=""></i><a href="ManagePayments" class="btn btn-danger btn-rounded" data-original-title="" title="">Manage Payment</a>
+                                       </td> 
+                                </tr>
+                                <tr>
+                                  <td width="auto" class="style6"><span class="style7">Accomodation</span></td>
+                                  <td width="auto" class="style8">Pay your school fees to get accommodation now.</td>
+                                   <td width="auto">
+                               Waiting for payment...  <i class="fa fa-spinner fa-spin" data-original-title="" title=""></i>           <a href="RoomAllocation" class="btn btn-info btn-rounded disabled" data-original-title="" title="">Get Hostel</a>
+                                       </td>
+                                </tr>
+                                 						 <tr>
+						     
+                                  <td width="auto" class="style6"><span class="style7">PTCF Levy</span></td>
+                                  <td width="auto" class="style8">Payment Receipt is required at registration - N25,000</td>
+                                   <td width="auto" class="style8">
+                                                                                		<!-- <a href="#" class="btn btn-danger btn-rounded">Pay With Flutter</a> <br> &nbsp;&nbsp; -->
+		 <!--confirmdue.php?id=775&merchnt=99&level=400&semz=Second&naumpure=MjAwMDA=&sesn=2023/2024&dpt=223-->
+		         <form action="QuicktellerPayPoint" method="post">
+                                    <input type="hidden" value="ABUAD PTCF Fee" name="paydesc">
+                                    <input type="hidden" name="amount" value="20000">
+                                    <input type="hidden" name="paycode" value="PTC">
+                                    <input type="hidden" name="itcode" value="PTC">
+                                    <input type="submit" value="Pay With Quickteller" name="ptcf" class="btn btn-danger btn-rounded" data-original-title="" title="">
+                                </form>  
+		            
+                                                                 
+                                       
+                                    
+                                      
+                                    </td>
+                                   
+                                </tr>
+                                
+                                
+                                     
+                                    
+                                   
+                                
+                                                                <!--						 <tr>
+						     
+                                  <td width="auto" class="style6"><span class="style7">Late Resumption Penalty </span></td>
+                                  <td width="auto" class="style8">Payment Receipt is required at registration - N25,000</td>
+                                   <td width="auto" class="style8">
+                                                                           </td>
+                                   
+                                </tr> -->
+                                                                
+                                                                 <tr>
+                                  <td width="auto" class="style6"><span class="style7">Medical Screening Fee</span></td>
+                                  <td width="auto" class="style8">Payment Receipt is required at registration - N10,000</td>
+                                   <td width="auto" class="style8">
+                                       
+                                                                                
+                                       
+                                        		  <form action="QuicktellerPayPoint" method="post">
+                                    <input type="hidden" value="Medical Screening Fee" name="paydesc">
+                                    <input type="hidden" name="amount" value="5000">
+                                    <input type="hidden" name="paycode" value="AMS">
+                                    <input type="hidden" name="itcode" value="AMS">
+                                    <input type="submit" value="Pay With Quickteller" name="ptcf" class="btn btn-danger btn-rounded" data-original-title="" title="">
+                                </form>  <!--<br>
+		 <a href="#" class="btn btn-danger btn-rounded">Pay With Flutter</a> 
+		 confirmdue.php?id=775&merchnt=98&level=400&semz=Second&naumpure=NTAwMA==&sesn=2023/2024&dpt=223 -->
+		            
+                                                                 
+                                       
+                                    
+                                      
+                                    </td>
+                                   
+                                </tr>
+                                   
+                                
+                                <!--Damages end-->
+                                
+                                
+    <!--Dues Begin (New)-->
+        
+                                                                <tr>
+                        
+                                                          <td width="auto" class="style6"><span class="style7">Students Representative Council (SRC) - </span></td>
+                                                          <td width="auto" class="style8">Payment is required before registration - N10,000</td>
+                                                           <td width="auto">
+                                                            		  <a href="confirmdue.php?id=2414&amp;merchnt=81&amp;level=400&amp;semz=&amp;amt=2500&amp;sesn=2023/2024&amp;dpt=" class="btn btn-danger btn-rounded" data-original-title="" title="">Pay Now</a>
+                        		                           
+                                                               </td>
+                        
+                        
+                                                        </tr>
+                                                                                                                <tr>
+                        
+                                                          <td width="auto" class="style6"><span class="style7">College of Sciences Students Association (COSSA) - </span></td>
+                                                          <td width="auto" class="style8">Payment is required before registration - N16,000</td>
+                                                           <td width="auto">
+                                                            		  <a href="confirmdue.php?id=2507&amp;merchnt=94&amp;level=400&amp;semz=&amp;amt=6000&amp;sesn=2023/2024&amp;dpt=" class="btn btn-danger btn-rounded" data-original-title="" title="">Pay Now</a>
+                        		                           
+                                                               </td>
+                        
+                        
+                                                        </tr>
+                                                                                                                <tr>
+                        
+                                                          <td width="auto" class="style6"><span class="style7">Nigerian Association of Computer Science Students - </span></td>
+                                                          <td width="auto" class="style8">Payment is required before registration - N15,000</td>
+                                                           <td width="auto">
+                                                            		  <a href="confirmdue.php?id=2518&amp;merchnt=95&amp;level=400&amp;semz=&amp;amt=10000&amp;sesn=2023/2024&amp;dpt=" class="btn btn-danger btn-rounded" data-original-title="" title="">Pay Now</a>
+                        		                           
+                                                               </td>
+                        
+                        
+                                                        </tr>
+                                                            <!--Dues End-->                            
+                      
+                      
+    <!-- Final Year Dues Starts -->
+    
+                                                             <tr>
+                        
+                                                          <td width="auto" class="style6"><span class="style7">Final Year Due</span></td>
+                                                          <td width="auto" class="style8">Payment is required before registration - N20,000</td>
+                                                           <td width="auto">
+                                                            		  <a href="confirmdue.php?id=2656&amp;merchnt=109&amp;level=&amp;semz=&amp;amt=10000&amp;sesn=&amp;dpt=" class="btn btn-danger btn-rounded" data-original-title="" title="">Pay Now</a>
+                        		                           
+                                                               </td>
+                        
+                        
+                                                        </tr>
+                                                            
+    <!-- Final Year Dues Ends -->
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                              
+                              </tbody></table>
+							  </div>
+                    
+							
+						
+					
+								
+								
+                          </div>
+                        </div>  
+                    </div>
+                </div>
+        <!-- end:main -->
+        <!-- start:footer -->
+ <div class="noprint"></div>
+        <footer>
+            <div class="container">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                   <div class="footer-widget">
+                        <h1 class="page-header">Bank Deposit Option <br><strong>PayDirect</strong></h1> 
+                        <span class="divider-hr"></span>
+                        <div class="row content-widget-footer">
+                            
+                            <div class="col-sm-8">
+                            <a href="#">    <p><span class="noprint"><img src="img/paydirect.jpg" alt="Interswitch Payment Processor" width="300" height="123"></span></p></a>
+                          </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer-widget">
+                        <h1 class="page-header">Pay <br><strong>Online</strong></h1>
+                        <span class="divider-hr"></span>
+                        <div class="row content-widget-footer">
+                            
+                            <div class="col-sm-8">
+                           <a href="https://quickteller.com/afebabalola">      <p><span class="noprint"><img src="img/quickteller2.png" alt="Pay with quickteller" width="300" height="123"></span></p></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer-widget">
+                        <h1 class="page-header">We <br><strong>Accept</strong></h1>
+                        <span class="divider-hr"></span>
+                        <div class="row content-widget-footer">
+                           
+                            <div class="col-sm-8">
+                     <a href="https://quickteller.com/afebabalola">           <p><span class="noprint"><img src="img/interswitch.png" alt="Pay with quickteller" width="300" height="123"></span></p> </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-widget">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>
+                            <span class="sosmed-footer">
+                                <a href="https://www.facebook.com/abuadng"><i class="fa fa-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"></i></a>
+                                <a href="https://www.twitter.com/abuad_uni"><i class="fa fa-twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"></i></a>
+                                <a href="#"><i class="fa fa-youtube" data-toggle="tooltip" data-placement="top" title="" data-original-title="Youtube"></i></a>
+                                <a href="https://www.linkedin.com/school/15098757/"><i class="fa fa-linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin"></i></a>
+                                <a href="https://www.instagram.com/abuad_uni/"><i class="fa fa-instagram" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"></i></a>
+                            </span> <br>
+                            © 2023 <strong>Powered by ICT Directorate, Afe Babalola University</strong><strong>.</strong></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="footer-bottom-links">
+                                <a href="#"><strong>Home Page</strong></a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Terms &amp; Conditions</a>                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end:footer -->
+
+    </div>
+    <!-- end:wrapper -->
+    
+    
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/592d4f4ab3d02e11ecc676b6/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+
+
+	<!-- start:javascript -->
+	<!-- javascript default for all pages-->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+    <!-- javascript for Srikandi admin -->
+    <script src="js/themes.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/jquery.sparkline.js" type="text/javascript"></script>
+    <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.min.js"></script>
+    <script src="js/respond.min.js"></script>
+	<!-- end:javascript -->
+
+    <!-- start:javascript for this page -->
+    <script src="assets/jquery.easy-pie-chart.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.customSelect.min.js"></script>
+    <script src="js/sparkline-chart.js"></script>
+    <script src="js/easy-pie-chart.js"></script>
+    <script src="js/count.js"></script>
+	    <script src="assets/ckeditor/ckeditor.js"></script>
+
+    <script>
+        //owl carousel
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                navigation : true,
+                slideSpeed : 300,
+                paginationSpeed : 400,
+                singleItem : true,
+                autoPlay:true
+            });
+        });
+
+        //custom select box
+
+        $(function(){
+            $('select.styled').customSelect();
+        });
+
+        if ($(".custom-bar-chart")) {
+        $(".bar").each(function () {
+            var i = $(this).find(".value").html();
+            $(this).find(".value").html("");
+            $(this).find(".value").animate({
+                height: i
+            }, 2000)
+        })
+    }
+
+    </script>
+    <!-- javascript for this page -->
+    <script src="assets/lou-multi-select/js/jquery.multi-select.js"></script>
+	<!-- bootstrap date picker -->
+    <script src="assets/datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="assets/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+    <script src="assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+    <script src="assets/bootstrap-fileupload/bootstrap-fileupload.js"></script>
+    <!-- end:javascript for this page -->
+
+
+	</div><script async="" charset="UTF-8" src="https://embed.tawk.to/_s/v4/app/64b107164a7/languages/en.js"></script><div id="ys69drpu5ahg1690828976980" class="widget-visible"><iframe src="about:blank" frameborder="0" scrolling="no" width="324px" height="44px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:10px !important; bottom:0px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:44px !important; min-width:324px !important; max-height:44px !important; max-width:324px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:324px !important; height:44px !important; display:block !important; z-index:1000001 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="y0r8ql38q0lo1690828977060" class="" title="chat widget"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" width="350px" height="520px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:0px !important; bottom:0px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:520px !important; min-width:350px !important; max-height:520px !important; max-width:350px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:350px !important; height:520px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:5px 5px  0 0 !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="ohnrmk7ddpk1690828977113" class="" title="chat widget"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" width="360px" height="55px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:10px !important; bottom:60px; left:auto !important; position:fixed !important; border:0 !important; min-height:55px !important; min-width:360px !important; max-height:55px !important; max-width:360px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:360px !important; height:55px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="g21nj4lfbfg81690828977082" class="" title="chat widget"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" width="142px" height="86px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:109px !important; bottom:44px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:86px !important; min-width:142px !important; max-height:86px !important; max-width:142px !important; padding:0 !important; margin:0px 0 0 0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:rotate(0deg) translateZ(0); -webkit-transform:rotate(0deg) translateZ(0); -ms-transform:rotate(0deg) translateZ(0); width:142px !important; height:86px !important; display:none !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important; -moz-transform:rotate(0deg) translateZ(0); -o-transform:rotate(0deg) translateZ(0); transform-origin:0; -moz-transform-origin:0; -webkit-transform-origin:0; -o-transform-origin:0; -ms-transform-origin:0;" id="vmdu6u3e7vt1690828977025" class="" title="chat widget"></iframe></div></body></html>

@@ -1,0 +1,23 @@
+/* styling anchor tags*/
+a{
+    color: #fd0000;
+    text-decoration: none;
+    border-style: dotted;
+}
+
+/* paragraph */
+p{
+    font-size: 30px;
+    color: blueviolet;
+    border-style: solid;
+    /* border-top-style:double ; */
+    /* border-right-style:solid ; */
+    /* border-bottom-style: ridge; */
+    /* border-left-style: dashed; */
+    border-style: ;
+    border-width: ;
+    border-color: #00ff22;
+
+    border-width: 10px;
+    border-color: green;
+}
